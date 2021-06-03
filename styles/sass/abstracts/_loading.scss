@@ -1,0 +1,44 @@
+$size:1.4em;
+$dotCount:10;
+$animationTime:2.5s;
+
+.peeek-loading{
+  background-color: #38d368;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+.peeek-loading ul{
+  position: absolute;
+  left: calc(50% - 0.7em);
+  top: calc(50% - 4.2em);
+  display: inline-block;
+  text-indent:$size*2;
+}
+.peeek-loading ul li:after,
+.peeek-loading ul:after{
+  width: $size;
+  height: $size;
+  background-color: #fff;
+  border-radius: 100%;
+}
+.peeek-loading ul li:after,
+.peeek-loading ul:after{
+  content:"";
+  display: block;
+}
+.peeek-loading ul:after{
+  position: absolute;
+  top: $size*2;
+}
+.peeek-loading li{
+  position: absolute;
+  padding-bottom: $size*4;
+  top: 0;
+  left: 0;
+}

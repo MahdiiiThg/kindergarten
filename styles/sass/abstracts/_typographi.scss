@@ -1,0 +1,19 @@
+.image-card {
+    height: 150px;
+    width: 150px;
+    @include respond-to(tablet) {
+        height: 120px;
+        width: 120px;
+    }
+    @include respond-to(phone) {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.main-title {
+    font-family: 'BDimona';
+    display: 'inline-block';
+    font-size: "4.5rem" ;
+    font-weight: '900'
+}

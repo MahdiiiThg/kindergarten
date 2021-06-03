@@ -1,0 +1,42 @@
+*,
+*::before ,
+*::after {
+    padding: 0;
+    margin: 0;
+    outline: 0 !important;
+    box-sizing: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0 !important;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 75.5%;
+    @include respond-to(phone) {
+        font-size: 60%;
+    }
+    @include respond-to(smallphone) {
+        font-size: 48%;
+    }
+}
+
+
+body {
+    font-family: 'Yekan' , sans-serif !important;
+}
+
+input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #777;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+color: #777;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+color: #777;
+}
+

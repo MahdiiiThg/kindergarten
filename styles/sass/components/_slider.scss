@@ -1,0 +1,23 @@
+.ant-drawer-content {
+  border-radius: 0 !important;
+  position: relative;
+}
+
+.ant-drawer-header {
+  text-align: center;
+}
+
+.ant-drawer-title {
+  font-size: 30px ​!important;
+}
+
+
+.ant-drawer-body {
+  position: relative;
+  color: #000;
+  background-image: linear-gradient(to right bottom, rgba(#E74C3C, .6),rgba(#F228D0, .7), rgba(#FFFF00, .5));
+}
+
+.ant-drawer-body a { 
+  color: #000;
+}

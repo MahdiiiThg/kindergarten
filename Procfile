@@ -1,0 +1,1 @@
+web: npm install && next start -p $PORT

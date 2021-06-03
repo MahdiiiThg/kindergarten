@@ -1,0 +1,46 @@
+.ant-page-header-heading {
+    display: flex !important;
+    align-items: center !important;
+}
+
+// .ant-page-header-heading-left {
+//     width: 80%;
+// }
+
+.ant-page-header-heading-tags {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.ant-input:focus, .ant-input-focused {
+    outline: 0 !important;
+    border-color: #DAA520 !important;
+    border-right-width: 1px !important;
+    -webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+// swiper react slider
+.slider-h {
+
+    @include respond-to(phone) {
+        height: 200px;
+    }
+    @include respond-to(tablet) {
+
+    }
+    @include respond-to(tablet-land) {
+        height: 150px;
+    }
+}
+
+.slider-h-min {
+    height: 150px;
+}
+
+.ant-drawer-content {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}

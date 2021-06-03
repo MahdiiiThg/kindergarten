@@ -1,0 +1,195 @@
+// borders
+.border-top-blue {border-top: 1px solid #2592ff;}
+
+.border-bottom-blue {border-bottom: 1px solid #2592ff;}
+
+.rounded-md {
+  border-radius: 12px !important;
+}
+
+.rounded-xl {
+  border-radius: 17px !important;
+}
+
+.rounded-2xl {
+  border-radius: 20px !important;
+}
+
+.rounded-xl-top {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.rounded-xl-bottom {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.absolute-center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+// font-sizing
+.fs-1 {
+  font-size: .7rem !important;
+}
+.fs-x1 {
+  font-size: .8rem !important;
+}
+.fs-2 {
+  font-size: 1rem !important;
+}
+.fs-x3 {
+  font-size: 1.2rem !important;
+}
+.fs-3 {
+  font-size: 1.3rem !important;
+}
+.fs-xl3 {
+  font-size: 1.4rem !important;
+}
+.fs-xs4 {
+  font-size: 1.5rem !important;
+}
+.fs-x4 {
+  font-size: 1.6rem !important;
+}
+.fs-l4 {
+  font-size: 2rem !important;
+}
+.fs-x5 {
+  font-size: 2.5rem !important;
+}
+.fs-x6 {
+  font-size: 3rem !important;
+}
+
+.default-font {
+  font-family: "dimona" , -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+// text decoration
+.line-through {
+  text-decoration: line-through;
+}
+
+
+// positions
+
+.bottom-0 {
+  bottom: 0 !important;
+}
+.top-0 {
+  top: 0 !important;
+}
+.top-xs {
+  top: .3rem;
+}
+
+.top-lg {
+  top: 5.5rem;
+}
+
+.left-xs {
+  left: .2rem;
+}
+
+.left-sm {
+  left: 1em;
+}
+
+.right-xs {
+  right: .3rem;
+}
+
+.right-sm {
+  right: 1rem;
+}
+
+
+.z-100 {
+  z-index: 100;
+}
+
+// Dark Shadow
+.shadow-t-s {
+  box-shadow: 0px -3px 8px 0px rgba(175, 118, 118, 0.5);
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+}
+
+.shadow-xxs {
+  box-shadow: 0px 0px 2px 0px rgba(175, 118, 118, 0.5);
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.5);
+}
+
+.shadow-xs {
+  box-shadow: 0px 0px 8px 0px rgba(175, 118, 118, 0.5);
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.5);
+}
+
+.shadow-lx {
+  box-shadow: 0px 0px 10px 0px rgba(175, 118, 118, 0.33);
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.33);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.33);
+}
+
+.shadow-xl {
+  box-shadow: 0px 0px 12px 0px rgba(175, 118, 118, 0.6);
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.6);
+  -moz-box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.6);
+}
+
+.shadow-md {
+  box-shadow: 0px 0px 3px 0px rgba(40,40,40,0.8);
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(40,40,40,0.8);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(40,40,40,0.8);
+}
+
+// height - widths
+
+.sm-width {
+  max-width: 200px
+} 
+
+// Direction
+.dir-r {
+  direction: rtl !important;
+}
+
+.dir-l {
+  direction: lrt !important;
+}
+
+// background
+.bg-transparent {
+  background: transparent !important;
+}
+
+.bg-offset {
+  background: rgba(#000000, 4.0);
+}
+
+// grid-gap
+.grid-gap-sm {
+  grid-gap: 10px !important;
+}
+
+.max-width {
+  max-width: 720px !important;
+  margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar transparent */
+}
+
+
+
+

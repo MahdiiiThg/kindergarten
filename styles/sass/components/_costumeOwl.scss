@@ -1,0 +1,21 @@
+.owl-theme .owl-nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.owl-nav .owl-prev span, 
+.owl-nav .owl-next span {
+  width: 25px !important;
+  height: 25px !important;
+  background: white !important;
+  border-radius: 100px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+}

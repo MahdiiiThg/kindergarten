@@ -1,0 +1,12 @@
+.doll {
+  width: 385px;
+  @include respond-to(tablet-land) {
+    width: 390px;
+  }
+  @include respond-to(phone) {
+    width: 365px;
+  }
+  @include respond-to(small-phone) {
+    width: 350px;
+  }
+} 

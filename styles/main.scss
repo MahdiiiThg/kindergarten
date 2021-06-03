@@ -1,0 +1,39 @@
+// tailwind
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'BDimona';
+    src: url('/assets/fonts/Far_Dimona/Far_Dimona.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'RDimona';
+    src: url('/assets/fonts/dimona/dimona.ttf') format('truetype'),
+}
+
+@font-face {
+    font-family: 'Yekan';
+    src: url('/assets/fonts/Yekan/Yekan.ttf') format('truetype'),
+}
+
+// abstracts
+@import './sass/abstracts/loading';
+@import "./sass/abstracts/variables";
+@import "./sass/abstracts/mixins";
+@import "./sass/abstracts/typographi";
+
+// base
+@import "./sass/base/base";
+@import "./sass/base/utilities";
+
+// components
+@import './sass/components/costumeOwl';
+@import './sass/components/doll';
+@import './sass/components/loading';
+@import './sass/components/slider';
+
+// custom styles
+@import './sass/custom/styles';
+@import "./sass/custom/images";
