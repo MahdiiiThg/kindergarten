@@ -16,7 +16,7 @@ export default function CategoryCol({data}) {
     reset: false,
     reverse: flip,
     loop: false,
-    delay: 1200,
+    delay: 200,
     // config: config.molasses,
     onRest: () => set(flip),
   })
@@ -45,7 +45,7 @@ export default function CategoryCol({data}) {
                 py-6
                 px-1
                 shadow-xxs
-                rounded-2xl
+                rounded-xl
                 text-center
               `}
               >

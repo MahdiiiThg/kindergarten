@@ -49,7 +49,8 @@ function OrderPage() {
   }
   console.log("pageData",pageData.galleries && pageData.galleries[0].image_url);
 
-  const addNewConsultant = () => {
+  const addNewConsultant = (e) => {
+    e.preventDefault()
     let formData = initialInputs()
     
     if(inputs && inputs.title && inputs.description) {
