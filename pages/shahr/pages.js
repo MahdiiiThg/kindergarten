@@ -6,7 +6,7 @@ import http from '../../api/http'
 // components
 import Layout from '../../components/Layouts/LayoutMain.jsx'
 import DetailsCard from '../../components/Carts/DetailsCart'
-import Slider from "../components/Slider/Slider"
+import Slider from "../../components/Slider/Slider"
 import PrimaryButton from '../../components/Buttons/PrimaryButton'
 import Title from "../../components/Typography/Title";
 

@@ -4,7 +4,7 @@ import Skeleton from 'react-loading-skeleton';
 // components
 import Layout from '../components/Layouts/LayoutMain.jsx'
 import CategoryCol from '../components/Categories/CategoryCol'
-
+import Slider from '../components/Slider/Slider'
 // api
 import http from '../api/http'
 

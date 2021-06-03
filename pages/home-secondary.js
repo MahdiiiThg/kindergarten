@@ -27,7 +27,7 @@ function HomeSecondary() {
           }}
       >
       <div className="max-width">
-        <Bear />
+        {/* <Bear />
         <div className="relative text-center">
           <img className="mx-auto red-title" src="/assets/img/redtitle.png" alt="redtitle"/>
           <div className="absolute top-14 md:top-28 lg:top-16 left-0 right-0 font-semibold">
@@ -48,7 +48,7 @@ function HomeSecondary() {
                 })
               }
             </Slider>
-        </div>
+        </div> */}
       </div>
     </div>
   )
